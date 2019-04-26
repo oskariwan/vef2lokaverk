@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<fieldset>
+<legend>hallo</legend>
+<form>
+    <div>
+      <input type="radio" name="kyn" value="kk"> karlkyn<br>
+      <input type="radio" name="kyn" value="kvk"> kvenkyn<br>
+      <input type="radio" name="kyn" value="hvorugt"> hvorugt<br>  
+    </div>
+    <div>
+    nafn
+    <input type="text" name="name" placeholder="Full name" required>
+    </div>
+    <div>
+    tolvupost
+    <input type="email" name="email" placeholder="Email address" required>
+    </div>
+    <div>
+    dagsetning
+    <input type="date" name="dagsetning" placeholder="DD/MM/YY" required>
+    </div>
+    <div>
+    veldu tolu
+    <select name="tala" required>
+      <option value="1" selected>1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    </div>
+    <div>
+    Comments
+    <textarea name="comments"></textarea>
+    </div>
+  <label>
+    number
+    <input type="number" name="number" pattern="[0-9]" title="Title" placeholder="number" required /> 
+  </label>
+  <div>ég samþykja skylmalar
+      <input type="checkbox" name="checkbox" required>
+  </div>
+  <input type="submit" name="submit" value="Panta">
+</form>
+</fieldset>

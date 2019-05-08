@@ -1,18 +1,18 @@
 nav {
   grid-area: nav;
-  background-color: orangered;
+  background-color: #000c35;
   display: flex;
   justify-content: center;
   width: 100%;
   top: 0; }
 
 .current {
-  color: green;
+  color: white;
   border-style: solid;
   padding: 3px; }
 
 .flexlink {
-  background-color: white;
+  background: linear-gradient(black, #850000, black);
   padding: 10px;
   margin: 5px;
   font-size: 20px;
@@ -20,7 +20,7 @@ nav {
 
 .content {
   bottom: 10%;
-  background-color: red;
+  background: linear-gradient(black, #000081, #ac006a, #000081, black);
   width: 95%;
   min-height: 500px;
   text-align: center;
@@ -29,3 +29,6 @@ nav {
   color: white;
   margin-left: 2.5%;
   border-radius: 15px; }
+
+body {
+  background-color: red; }

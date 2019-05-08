@@ -2,7 +2,7 @@
 layout: post
 author: oskar
 ---
-![blackpink.jpg](lokaverkefni/assets/blackpink.png){:class="img-responsive": height="300px" width="400px"}
+![blackpink.jpg](vef2lokaverk/assets/blackpink.png){:class="img-responsive": height="300px" width="400px"}
 
 laglisti: Kill This Love - Kiss and Make up - DDU-DU DDU-DU - As If It's Your Last - BOOMBAYAH - Playing with fire - Kick it 
 
